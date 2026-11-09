@@ -19,7 +19,7 @@ import android.webkit.WebViewClient;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
-    private static final String START_URL = "https://6aef1d790e2bb14981899c7f--jovial-twilight-3e4d54.netlify.app/";
+private static final String START_URL = "https://jovial-twilight-3e4d54.netlify.app/";
     private static final int FILE_CHOOSER_REQUEST = 4102;
     private WebView webView;
     private ValueCallback<Uri[]> fileCallback;
